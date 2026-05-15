@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-st.set_page_config(page_title="Credit Risk Predictor.....", layout="wide")
-st.title("🏦 German Credit Risk Predictor....")
+st.set_page_config(page_title="Credit Risk Predictor", layout="wide")
+st.title("🏦 German Credit Risk Predictor")
 st.markdown("### Predict Creditability (Good / Bad)")
 
 # Load model
